@@ -176,3 +176,38 @@ st.write(
 
 
 """)
+
+st.write("#")
+st.subheader("Education")
+st.write("---")
+
+
+# ---SIUE
+
+st.write("**Southern Illinois University Edwardsville**")
+st.write("***Msc. Statistics & Operations Research***")
+st.write("****01/2017 - 12/2019****")
+st.write(
+    """
+- GPA 4.0
+- Outstanding Mathematics and Statistics Student Award 2019
+- R.N Pendergrass Graduate Student Award 2018
+
+
+""")
+
+# ---JKUAT
+
+st.write("**Jomo Kenyatta University of Agriculture & Technology**")
+st.write("***Bsc. Financial Engineering***")
+st.write("****09/2012 - 12/2016****")
+st.write(
+    """
+
+- Graduated with First Class Honors
+- Vice – Chancellor’s Award 2015, 2016
+
+
+""")
+st.write("#")
+st.write("---")
