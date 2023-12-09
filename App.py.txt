@@ -1,0 +1,36 @@
+from pathlib import Path
+
+import streamlit as st
+from PIL import Image
+
+##---PATH SETTINGS ---
+
+current_dir = Path(_file_).parent if "_file_" in locals() else Path.cwd()
+css_file = current_dir / "Styles" / "main.css"
+resume_file = current_dir / "Assets" / "CV.pdf"
+profile_pic = current_dir / "Assets" / "ProfilePic.jpeg"
+
+
+
+#---GENERAL SETTINGS --
+
+PAGE_TITLE = "Digital Resume| Kevin Chesis Juma"
+PAGE_ICON = ":wave:"
+NAME = "Kevin Chesis Juma"
+DESCRIPTION = """
+Data Analyst III
+"""
+EMAIL = "kipischesis@gmail.com
+
+SOCIAL_MEDIA = {
+"Youtube": "https://www.youtube.com/channel/UCMxArhFtxZp6c0j3kTft_UA",
+"LinkedIn": "https://www.linkedin.com/in/kevin-juma-95782885/",
+"Github": ""https://github.com",
+}
+
+PROJECTS = {
+}
+
+st.set_page_config(page_title = PAGE_TITLE, page_icon = PAGE_ICON)
+
+st.title("Hello Kevo Blallfuckin")
